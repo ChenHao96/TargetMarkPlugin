@@ -41,8 +41,17 @@ This is an efficient target tagging plugin that maintains a good frame rate even
 You can also manually Add or Remove actors that require Mark
 
 1. Add Actor Mark
-2. Remove Actor Mark
-3. Clear All Actor Marks
+
+   **Note**: Actor Has "Component" Will not Added
+3. Remove Actor Mark
+
+   **Note**: Only manually added Actor will be removed
+5. Clear All Actor Marks
+
+   **Warning**: Be cautious as it will also clear fixed "Mark" in the scene
+7. ReSet Screen Value
+
+   **Note**: When splitting or adjusting the split screen size, this function needs to be called
 
 ![Title](09.png "Title")
 
